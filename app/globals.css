@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  min-height: 100%;
+  background-color: #0d0d0d;
+  color: #e2e2e2;
+}
+
+/* Pinterest-style masonry */
+.masonry {
+  columns: 3;
+  column-gap: 12px;
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 900px) {
+  .masonry { columns: 2; }
+}
+
+@media (max-width: 480px) {
+  .masonry { columns: 1; }
+}
