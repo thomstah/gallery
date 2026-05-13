@@ -16,17 +16,44 @@ export interface Album {
 }
 
 export const albums: Album[] = [
-  // Add albums here as you import photos.
-  // Example:
-  // {
-  //   slug: 'japan-2024',
-  //   title: 'Japan 2024',
-  //   description: 'Two weeks across Tokyo, Kyoto, and Osaka.',
-  //   cover: '/photos/japan-2024/cover.jpg',
-  //   coverOrientation: 'landscape',
-  //   photos: [
-  //     { src: '/photos/japan-2024/01.jpg', alt: 'Shibuya crossing at night', orientation: 'landscape' },
-  //     { src: '/photos/japan-2024/02.jpg', alt: 'Temple gate', orientation: 'portrait' },
-  //   ],
-  // },
+  {
+    slug: '26-LNY',
+    title: 'Lao New Year 2026',
+    description: 'Lao New Year Parade',
+    cover: '/photos/26-LNY/02.jpg',
+    coverOrientation: 'landscape',
+    photos: [
+      { src: '/photos/26-LNY/01.jpg', alt: 'Lao New Year Parade', orientation: 'portrait' },
+      { src: '/photos/26-LNY/02.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/03.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/04.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/05.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/06.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/07.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/08.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/09.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/10.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/11.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/12.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/13.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/14.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/15.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/16.jpg', alt: 'Lao New Year Parade', orientation: 'portrait' },
+      { src: '/photos/26-LNY/17.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/18.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/19.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/20.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/21.jpg', alt: 'Lao New Year Parade', orientation: 'portrait' },
+      { src: '/photos/26-LNY/22.jpg', alt: 'Lao New Year Parade', orientation: 'portrait' },
+      { src: '/photos/26-LNY/23.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/24.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/25.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/26.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/27.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/28.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/29.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/30.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+      { src: '/photos/26-LNY/31.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
+    ],
+  },
 ];
