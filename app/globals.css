@@ -14,6 +14,18 @@ html, body {
   color: #e2e2e2;
 }
 
+/* Scroll fade-in */
+.fade-up {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Pinterest-style masonry */
 .masonry {
   columns: 3;
