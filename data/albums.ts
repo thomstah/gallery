@@ -20,7 +20,7 @@ export const albums: Album[] = [
     slug: '26-LNY',
     title: 'Lao New Year 2026',
     description: 'Lao New Year Parade',
-    cover: '/photos/26-LNY/02.jpg',
+    cover: '/photos/26-LNY/12.jpg',
     coverOrientation: 'landscape',
     photos: [
       { src: '/photos/26-LNY/01.jpg', alt: 'Lao New Year Parade', orientation: 'portrait' },
