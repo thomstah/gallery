@@ -56,4 +56,16 @@ export const albums: Album[] = [
       { src: '/photos/26-LNY/31.jpg', alt: 'Lao New Year Parade', orientation: 'landscape' },
     ],
   },
+  {
+    slug: 'downtown-stroll',
+    title: 'Downtown Stroll',
+    description: 'Strolling through downtown',
+    cover: '/photos/downtown-stroll/03.jpg',
+    coverOrientation: 'portrait',
+    photos: [
+      { src: '/photos/downtown-stroll/01.jpg', alt: 'Downtown Stroll', orientation: 'landscape' },
+      { src: '/photos/downtown-stroll/02.jpg', alt: 'Downtown Stroll', orientation: 'landscape' },
+      { src: '/photos/downtown-stroll/03.jpg', alt: 'Downtown Stroll', orientation: 'portrait'  },
+    ],
+  },
 ];
